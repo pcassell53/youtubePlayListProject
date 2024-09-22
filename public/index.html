@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Paul Cassell Design YouTube Playlist Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.12.0/js/all.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.12.0/js/v4-shims.js"></script>
+    <link rel="icon" type="image/png" href="Images/faviconImage.png" />
+    <link rel="stylesheet" type="text/css" href="youtubePlaylistTest.css">
+</head>
+
+<body>
+    <section class="container-fluid">
+        <nav class="navbar fixed-top navbar-light navbar-expand-lg" id="mainNavbar" data-aos="fade-down">
+            <div class="container navContainer">
+                <div class="d-flex flex-nowrap w-100">
+                    <a href="https://www.paulcasselldesign.com/" target="_blank" class="navbar-brand mr-auto">
+                        <img src="Images/logo.png" class="cassellLogoDesktop hidden-xs">
+                        <img src="Images/paulCassellSmallLogo-10.png" class="cassellLogoMobile visible-xs">
+                    </a>
+                    <div class="navbar-toggler ml-auto menu-btn visible-xs" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle Navigation">
+                        <div class="menu-btn__burger"></div>
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse" id="navLinks">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item text-center navPortfolioLinks m-0">
+                            <a href="https://www.paulcasselldesign.com/professional%20portfolio.html" target="_blank" class="nav-link">Professional Work</a>
+                        </li>
+                        <li class="nav-item text-center navPortfolioLinks m-0">
+                            <a href="https://www.paulcasselldesign.com/personal%20portfolio.html" target="_blank" class="nav-link">Personal Projects</a>
+                        </li>
+                        <li class="nav-item text-center navOtherLinks m-0">
+                            <a href="Paul Cassell Resume.pdf" target="_blank" class="nav-link">Resume</a>
+                        </li>
+                        <li class="nav-item text-center navOtherLinks m-0">
+                            <a href="https://www.paulcasselldesign.com/about_me" target="_blank" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item text-center navOtherLinks m-0">
+                            <a href="https://www.paulcasselldesign.com/contact" target="_blank" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <div class="container">
+        <div class="playlistPadding">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="text-white">Check Out Our Youtube Channel</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-9">
+                    <div class="video-container">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe id="player" src="" frameborder="0" loading="lazy" allowfullscreen="" class="embed-responsive-item"></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="sidebar">
+                        <h2 class="playlistTitle">Playlist</h2>
+                        <ul id="playlist"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script src="youtubePlaylistTestJS.js"></script>
+</body>
+
+</html>
